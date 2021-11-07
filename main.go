@@ -8,10 +8,10 @@ import (
 	"flag"
 	"fmt"
 	"github.com/zngw/log"
+	"github.com/zngw/sshtunnel/config"
+	"github.com/zngw/sshtunnel/ssht"
 	"os"
 	"os/signal"
-	"sshtunnel/config"
-	"sshtunnel/ssht"
 	"strings"
 	"syscall"
 )
